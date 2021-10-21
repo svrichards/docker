@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Update
-apt-get update -y
-apt-get upgrade -y
+apt-get update
+apt-get upgrade
 
 #Docker Install
 apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
